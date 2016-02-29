@@ -1,0 +1,13 @@
+Working directory = /my_wd_dir
+Reference Genome = /my_ref_genome.fa
+sample_peak_calling_file=sample_peak_calling.txt
+Number of samples = 16 
+genome size= hs
+name of the experiment = J.Doe
+fragment size = 400
+tag length = 75
+read_format=BAMPE
+peak_out_file_name=peak_calling_example
+fdr cut off = 0.01
+broad = FALSE
+broadCuttOff= 0
