@@ -27,8 +27,11 @@ Setting up the analysis
 1.	Go to the main folder of the project and run:
     		$ analysis_info.py
 This will create a file named analysis_info.txt, which needs to be filled in a text editor.
+2.	Create a sample_names.txt file with the list of the sample names
+3.	Next run:
+    		$ organizeWorkingDirectory.py --analysis_info_file analysis_info.txt
 
-List of arguments to fill in the parameter file:
+4. List of arguments to fill in the parameter file:
 
 * Working directory: base directory 
 * Reference genome: path to the reference genome directory
@@ -44,9 +47,7 @@ List of arguments to fill in the parameter file:
 * broad: TRUE/FALSE, do broad peak calling
 * broadCutOff: fdr cut off for broad peaks.
 
-2.	Create a sample_names.txt file with the list of the sample names
-3.	Next run:
-    		$ organizeWorkingDirectory.py --analysis_info_file analysis_info.txt
+
 
 QC and trimming
 ---------------
