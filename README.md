@@ -27,20 +27,22 @@ Setting up the analysis
 1.	Go to the main folder of the project and run:
     		$ analysis_info.py
 This will create a file named analysis_info.txt, which needs to be filled in a text editor.
+
 List of arguments to fill in the parameter file:
-Working directory: base directory 
-Reference genome: path to the reference genome directory
-sample_peak_calling: file defining the control and treatment match up, first column should be treatment and the second one control, tab delimited
-Number of samples: how many sample to analyse
-genome size: argument for macs 2, for known organisms can use abrevation (hs=human, mm=mouse)
-name of the experiment: name for the experiment
-fragment size: expected fragment size
-tag length: read length
-read_format: read format, if single end read, use 'auto', for pair end use 'BAMPE' (need to be bam format)
-peak_out_file_name: suffix for peak call file to be added to the sample name
-fdr cut off: Cut off for FDR after peak calling
-broad: TRUE/FALSE, do broad peak calling
-broadCutOff: fdr cut off for broad peaks.
+
+* Working directory: base directory 
+* Reference genome: path to the reference genome directory
+* sample_peak_calling: file defining the control and treatment match up, first column should be treatment and the second one * * control, tab delimited
+* Number of samples: how many sample to analyse
+* genome size: argument for macs 2, for known organisms can use abrevation (hs=human, mm=mouse)
+* name of the experiment: name for the experiment
+* fragment size: expected fragment size
+* tag length: read length
+* read_format: read format, if single end read, use 'auto', for pair end use 'BAMPE' (need to be bam format)
+* peak_out_file_name: suffix for peak call file to be added to the sample name
+* fdr cut off: Cut off for FDR after peak calling
+* broad: TRUE/FALSE, do broad peak calling
+* broadCutOff: fdr cut off for broad peaks.
 
 2.	Create a sample_names.txt file with the list of the sample names
 3.	Next run:
