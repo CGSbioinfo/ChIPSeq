@@ -61,7 +61,7 @@ Mapping and mapping QC
 ----------------------
 Run the following commands:
   $ mappingReads.py --in_dir trimmedReads/ --out_dir alignedReads/
-  $ mappingQC.py --in_dir alignedReads/ --out_dir alignedReads/QC/ --out_dir_plots Report/figure
+  Note: mapping QC integrated in the mapping step.
 
 Peak calling
 --------------
